@@ -1,0 +1,136 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html,
+body {
+height: 100%;
+width: 100%;
+}
+
+/* body{
+    perspective: 1000px;
+} */
+
+/* #box{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    transform: rotateZ(45deg);
+    transform: scale()
+} */
+
+/* #parent{
+    height: 400px;
+    width: 400px;
+    background-color: crimson;
+    position: relative;
+}
+
+#child{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* .box{
+    height: 200px;
+    width: 200px;
+    background-color: lightseagreen;
+    border: 2px solid white;
+}
+
+.box:nth-child(1){
+    background-color: crimson;
+} */
+
+/* #parent{
+    height: 400px;
+    width: 400px;
+    background-color: crimson;
+    padding: 1px;
+}
+
+#child{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    margin-top: 50px;
+} */
+
+/* .page{
+    height: 100%;
+    width: 100%;
+    background-color: royalblue;
+}
+
+.page:nth-child(2)
+{
+    background-color: rgb(15, 62, 203);
+}
+
+.page:nth-child(3)
+{
+    background-color: rgb(11, 47, 155);
+}
+
+.page:nth-child(4)
+{
+    background-color: rgb(8, 33, 107);
+}
+
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    position: sticky;
+    top: 20%;
+} */
+
+.parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.child1{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+}
+
+.child2{
+    height: 100px;
+    width: 100px;
+    background-color: royalblue;
+}
+
+.child3{
+    height: 100px;
+    width: 100px;
+    background-color: lightseagreen;
+}
+
+.nav{
+    background-color: royalblue;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}

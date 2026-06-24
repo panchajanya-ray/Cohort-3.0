@@ -1,0 +1,100 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html,
+body {
+height: 100%;
+width: 100%;
+}
+
+#hero{
+    color: red;
+}
+
+#villain{
+    color: rebeccapurple;
+}
+
+.king{
+    background-color: rosybrown;
+    font-family: italics;
+}
+
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    margin: 50px 0px 0px 50px;
+    padding-left: 10px;
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    
+}
+
+button{
+    background-color: transparent;
+    padding: 10px 20px;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all ease 0.5s;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+button:active{
+    background-color: rosybrown;
+    color: maroon;
+}
+
+#border{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 5px solid maroon;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    position: absolute;
+    left: 50%;
+}
+
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+}
+
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: lightseagreen;
+}
+
+#box4{
+    height: 200px;
+    width: 200px;
+    background-color: maroon;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
